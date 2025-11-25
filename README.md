@@ -22,6 +22,20 @@
             font-weight: bold;
         }
     </style>
+     <style>
+        #myHeader {
+  background-color: black;
+  color: purple;
+  padding: 45px;
+  text-align: center;
+} 
+#myParagraph {
+  background-color: black;
+  color: purple;
+  padding: 45px;
+  text-align: center;
+} 
+    </style>
 </Head>
 <body>
     
@@ -48,6 +62,15 @@
 <p class="highlight-text">This is an important paragraph that needs attention, highlighted in red.</p>
 
 <p class="normal-text">This is another paragraph, providing additional information or closing remarks.</p>
+<h1 >Id Attribute</h1>
+<p>Using CSS to style an element with the id "myHeader and myParagraph":</p>
+<h1 id="myHeader">Header</h1>
+<p id="myParagraph">The id attribute in HTML is used to give a unique identity to a specific element on a webpage. It helps
+     developers target that exact element using CSS or JavaScript. Since an id must be unique within a page, it 
+     ensures that no two elements share the same identifier. This makes it easy to apply custom styling, access 
+     the element through scripts, or link directly to it from other parts of the page. The id attribute plays an 
+     important role in creating organized, interactive, and well-structured web pages.</p>
+
 
 </body>
 </html>
