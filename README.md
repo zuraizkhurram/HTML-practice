@@ -51,7 +51,7 @@
            <div style="color: brown; float: right;" > DIV tags, web developers can organize a webpage into different sections, such as</div> header, sidebar, main content, and footer. 
             This makes it easier to style each part using CSS</p>
     </div>
-   
+   <button onclick="alert('Hello!')">Click Me</button>
 
 <h1 class="main-heading">Welcome to My Web Page</h1>
 
